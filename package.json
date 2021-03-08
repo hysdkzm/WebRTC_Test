@@ -1,0 +1,32 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "node.js+express+socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joyent/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joyent/node/issues"
+  },
+  "homepage": "https://github.com/joyent/node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "forever": "^3.0.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "moment": "^2.25.3",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "yokoyamaken"
+  ]
+}
